@@ -2,7 +2,7 @@ name: Daily Tech Digest
 
 on:
   schedule:
-      - cron: "0 12 * * *"  # 12:00 UTC = 8:00 AM EDT
+      - cron: "0 12 * * *"
         workflow_dispatch:
 
         jobs:
